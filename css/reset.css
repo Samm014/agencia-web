@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.container{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+button,
+textarea:focus{
+    outline: none;
+}
